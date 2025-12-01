@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Downloads | Patient Portal</title>
+
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="../assets/css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header sticky-top bg-white shadow-sm py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="dashboard.html" class="logo">
+                <h1 class="sitename m-0">Portal</h1>
+            </a>
+            <nav>
+                <a class="me-3" href="dashboard.html">Dashboard</a>
+                <a class="me-3" href="appointments.html">Appointments</a>
+                <a class="me-3" href="payments.html">Payments</a>
+                <a class="me-3" href="downloads.html">Downloads</a>
+                <button class="btn btn-sm btn-outline-danger" id="logoutBtn">Logout</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <h3 class="mb-3">My Reports & Prescriptions</h3>
+
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <ul id="downloadList" class="list-group small"></ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/portal.js"></script>
+</body>
+
+</html>
